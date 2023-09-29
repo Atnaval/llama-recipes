@@ -3,5 +3,5 @@ python -m llama_recipes.finetuning \
 --model_name meta-llama/Llama-2-13b-hf --output_dir ./output/13b \
 --dataset lawsum_dataset \
 --enable_wandb --wandb_project sum-law --wandb_run 2_13b \
---batch_size_training 64 \
---val_batch_size 16
+--batch_size_training 4 \
+--val_batch_size 1

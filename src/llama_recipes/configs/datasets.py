@@ -10,7 +10,14 @@ class samsum_dataset:
     train_split: str = "train"
     test_split: str = "validation"
     input_length: int = 2048
-    
+
+@dataclass
+class samsum_dataset:
+    dataset: str =  "lawsum_dataset"
+    train_split: str = "train"
+    test_split: str = "test"
+    input_length: int = 2048
+
     
 @dataclass
 class grammar_dataset:

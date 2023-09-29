@@ -12,7 +12,7 @@ class samsum_dataset:
     input_length: int = 2048
 
 @dataclass
-class samsum_dataset:
+class lawsum_dataset:
     dataset: str =  "lawsum_dataset"
     train_split: str = "train"
     test_split: str = "test"
